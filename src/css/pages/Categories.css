@@ -1,0 +1,6 @@
+.categories {
+  grid-column: full-start / center-start 1;
+  padding: 7rem 4rem;
+  color: var(--color-grey-dark-2);
+  background-color: var(--color-primary-dark-1);
+}

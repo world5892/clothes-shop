@@ -1,0 +1,1126 @@
+[
+  {
+    "id": 0,
+    "name": "Sweter o drobnym splocie",
+    "description": "Luźny sweter z miękkiej dzianiny. Okrągły dekolt ze ściągaczem, mocno obniżone ramiona. Proste zrolowane brzegi.",
+    "category": "swetry",
+    "collections": ["jesień/zima", "casual"],
+    "size": "S",
+    "color": "czarny-kremowy",
+    "availableColors": [
+      {
+        "color": "czarny-kremowy",
+        "sizes": [
+          {
+            "size": "M",
+            "soldOut": false
+          },
+          {
+            "size": "L",
+            "soldOut": false
+          }
+        ]
+      }
+    ],
+    "price": 99.99,
+    "discount": null,
+    "createdAt": "2023-01-01T12:00:00Z",
+    "fabrics": [
+      {
+        "fabric": "poliester",
+        "percentage": 65
+      },
+      {
+        "fabric": "akryl",
+        "percentage": 35
+      }
+    ],
+    "pattern": "w pasy",
+    "soldCount": 12,
+    "inFashion": false
+  },
+  {
+    "id": 1,
+    "name": "Spodnie bez zapięcia z domieszką lnu",
+    "description": "Długie spodnie z delikatnej tkaniny z mieszanki wiskozy i lnu. Wysoki stan, elastyczna talia ze sznurkiem, szerokie nogawki z kieszeniami w szwach bocznych.",
+    "category": "spodnie",
+    "collections": ["wiosna/lato", "biznesowe", "wieczorowe"],
+    "size": "L",
+    "color": "jasnobeżowy",
+    "availableColors": [
+      {
+        "color": "jasnobeżowy",
+        "sizes": [
+          {
+            "size": "S",
+            "soldOut": true
+          },
+          {
+            "size": "M",
+            "soldOut": false
+          },
+          {
+            "size": "L",
+            "soldOut": false
+          },
+          {
+            "size": "XL",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "color": "jasnobrązowy",
+        "sizes": [
+          {
+            "size": "S",
+            "soldOut": false
+          },
+          {
+            "size": "M",
+            "soldOut": false
+          },
+          {
+            "size": "L",
+            "soldOut": false
+          },
+          {
+            "size": "XL",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "color": "jasnoróżowy",
+        "sizes": [
+          {
+            "size": "S",
+            "soldOut": false
+          },
+          {
+            "size": "M",
+            "soldOut": true
+          },
+          {
+            "size": "L",
+            "soldOut": false
+          },
+          {
+            "size": "XL",
+            "soldOut": false
+          }
+        ]
+      }
+    ],
+    "price": 79.99,
+    "discount": null,
+    "createdAt": "2024-03-12T12:00:00Z",
+    "fabrics": [
+      {
+        "fabric": "wiskoza",
+        "percentage": 55
+      },
+      {
+        "fabric": "len",
+        "percentage": 45
+      }
+    ],
+    "pattern": "jednolity",
+    "soldCount": 19,
+    "inFashion": false
+  },
+  {
+    "id": 2,
+    "name": "Szorty Mom Ultra High Denim",
+    "description": "Szorty z 5 kieszeniami ze spranego bawełnianego denimu. Bardzo wysoki stan, rozporek na suwak i guzik. Nieco szersze nogawki. Bawełna zawarta w produkcie częściowo pochodzi z recyklingu.",
+    "category": "szorty",
+    "collections": ["wiosna/lato", "casual"],
+    "size": "M",
+    "color": "jasnoniebieski",
+    "availableColors": [
+      {
+        "color": "jasnoniebieski",
+        "sizes": [
+          {
+            "size": "M",
+            "soldOut": false
+          },
+          {
+            "size": "L",
+            "soldOut": true
+          },
+          {
+            "size": "XL",
+            "soldOut": false
+          },
+          {
+            "size": "XXL",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "color": "ciemnoniebieski",
+        "sizes": [
+          {
+            "size": "M",
+            "soldOut": true
+          },
+          {
+            "size": "L",
+            "soldOut": true
+          },
+          {
+            "size": "XL",
+            "soldOut": false
+          },
+          {
+            "size": "XXL",
+            "soldOut": true
+          }
+        ]
+      }
+    ],
+    "price": 99.99,
+    "discount": null,
+    "createdAt": "2023-11-04T12:00:00Z",
+    "fabrics": [
+      {
+        "fabric": "dżins",
+        "percentage": 100
+      }
+    ],
+    "pattern": "jednolity",
+    "soldCount": 24,
+    "inFashion": true
+  },
+  {
+    "id": 3,
+    "name": "Rozpinana bluza oversize z kapturem",
+    "description": "Obszerna bluza z dzianiny dresowej z mieszanki zawierającej bawełnę z miękkim meszkiem wewnątrz. Dwuwarstwowy kaptur ze sznurkiem, zapięcie na suwak, mocno obniżone ramiona. Kangurkowe kieszenie, rękawy i dół ze ściągaczem.",
+    "category": "bluzy",
+    "collections": ["jesień/zima", "casual", "sportowe"],
+    "size": "M",
+    "color": "jasnofioletowy",
+    "availableColors": [
+      {
+        "color": "jasnofioletowy",
+        "sizes": [
+          {
+            "size": "M",
+            "soldOut": false
+          },
+          {
+            "size": "L",
+            "soldOut": false
+          },
+          {
+            "size": "XL",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "color": "jasnoniebieski",
+        "sizes": [
+          {
+            "size": "M",
+            "soldOut": true
+          },
+          {
+            "size": "L",
+            "soldOut": false
+          },
+          {
+            "size": "XL",
+            "soldOut": false
+          }
+        ]
+      }
+    ],
+    "price": 109.99,
+    "discount": 35,
+    "createdAt": "2024-05-22T12:00:00Z",
+    "fabrics": [
+      {
+        "fabric": "bawełna",
+        "percentage": 95
+      },
+      {
+        "fabric": "elastan",
+        "percentage": 5
+      }
+    ],
+    "pattern": "jednolity",
+    "soldCount": 31,
+    "inFashion": false
+  },
+  {
+    "id": 4,
+    "name": "Sukienka z rozciętymi rękawami",
+    "description": "Tkaninowa sukienka do połowy łydki. Okrągły dekolt, krótkie rozcięte rękawy. W talii marszczone odcięcie tworzące drapowanie, kryty suwak z tyłu. Bez podszewki.",
+    "category": "sukienki",
+    "collections": ["wiosna/lato", "wieczorowe"],
+    "size": "XS",
+    "color": "kremowy",
+    "availableColors": [
+      {
+        "color": "kremowy",
+        "sizes": [
+          {
+            "size": "XS",
+            "soldOut": false
+          },
+          {
+            "size": "S",
+            "soldOut": true
+          },
+          {
+            "size": "M",
+            "soldOut": false
+          },
+          {
+            "size": "L",
+            "soldOut": false
+          },
+          {
+            "size": "XL",
+            "soldOut": false
+          }
+        ]
+      }
+    ],
+    "price": 199.99,
+    "discount": 20,
+    "createdAt": "2023-02-04T12:00:00Z",
+    "fabrics": [
+      {
+        "fabric": "wiskoza",
+        "percentage": 100
+      }
+    ],
+    "pattern": "jednolity",
+    "soldCount": 7,
+    "inFashion": false
+  },
+  {
+    "id": 5,
+    "name": "Pudełkowy T-shirt",
+    "description": "Pudełkowy T-shirt z miękkiego bawełnianego dżerseju. Okrągły dekolt ze ściągaczem, obniżone ramiona, szerokie rękawy do łokcia.",
+    "category": "T-shirty",
+    "collections": ["wiosna/lato", "casual"],
+    "size": "S",
+    "color": "jasnoróżowy",
+    "availableColors": [
+      {
+        "color": "jasnoróżowy",
+        "sizes": [
+          {
+            "size": "S",
+            "soldOut": true
+          },
+          {
+            "size": "M",
+            "soldOut": false
+          },
+          {
+            "size": "L",
+            "soldOut": false
+          },
+          {
+            "size": "XL",
+            "soldOut": true
+          }
+        ]
+      },
+      {
+        "color": "żółty",
+        "sizes": [
+          {
+            "size": "S",
+            "soldOut": false
+          },
+          {
+            "size": "M",
+            "soldOut": false
+          },
+          {
+            "size": "L",
+            "soldOut": true
+          },
+          {
+            "size": "XL",
+            "soldOut": true
+          }
+        ]
+      },
+      {
+        "color": "jasnofioletowy",
+        "sizes": [
+          {
+            "size": "S",
+            "soldOut": false
+          },
+          {
+            "size": "M",
+            "soldOut": false
+          },
+          {
+            "size": "L",
+            "soldOut": false
+          },
+          {
+            "size": "XL",
+            "soldOut": true
+          }
+        ]
+      }
+    ],
+    "price": 29.99,
+    "discount": null,
+    "createdAt": "2024-05-28T12:00:00Z",
+    "fabrics": [
+      {
+        "fabric": "bawełna",
+        "percentage": 100
+      }
+    ],
+    "pattern": "jednolity",
+    "soldCount": 18,
+    "inFashion": false
+  },
+  {
+    "id": 6,
+    "name": "T-shirt z dekoltem w serek",
+    "description": "T-shirt z wiskozowego dżerseju. Głęboki dekolt w serek, prosty brzeg u dołu.",
+    "category": "T-shirty",
+    "collections": ["wiosna/lato", "casual"],
+    "size": "M",
+    "color": "biały",
+    "availableColors": [
+      {
+        "color": "biały",
+        "sizes": [
+          {
+            "size": "S",
+            "soldOut": true
+          },
+          {
+            "size": "M",
+            "soldOut": true
+          },
+          {
+            "size": "L",
+            "soldOut": true
+          },
+          {
+            "size": "XL",
+            "soldOut": true
+          }
+        ]
+      },
+      {
+        "color": "czarny",
+        "sizes": [
+          {
+            "size": "S",
+            "soldOut": true
+          },
+          {
+            "size": "M",
+            "soldOut": true
+          },
+          {
+            "size": "L",
+            "soldOut": true
+          },
+          {
+            "size": "XL",
+            "soldOut": true
+          }
+        ]
+      },
+      {
+        "color": "jasnozielony",
+        "sizes": [
+          {
+            "size": "S",
+            "soldOut": true
+          },
+          {
+            "size": "M",
+            "soldOut": true
+          },
+          {
+            "size": "L",
+            "soldOut": true
+          },
+          {
+            "size": "XL",
+            "soldOut": true
+          }
+        ]
+      }
+    ],
+    "price": 39.99,
+    "discount": 5,
+    "createdAt": "2024-06-17T12:00:00Z",
+    "fabrics": [
+      {
+        "fabric": "wiskoza",
+        "percentage": 100
+      }
+    ],
+    "pattern": "jednolity",
+    "soldCount": 16,
+    "inFashion": false
+  },
+  {
+    "id": 7,
+    "name": "Dżersejowa piżama z bawełny",
+    "description": "Piżama z miękkiego bawełnianego dżerseju z nadrukiem motywu składająca się z T-shirtu i szortów. T-shirt ma okrągły dekolt ze ściągaczem i obniżone ramiona. Szorty mają elastyczną talię.",
+    "category": "piżamy",
+    "collections": [],
+    "size": "S",
+    "color": "jasnoniebieski",
+    "availableColors": [
+      {
+        "color": "jasnoniebieski",
+        "sizes": [
+          {
+            "size": "S",
+            "soldOut": false
+          },
+          {
+            "size": "M",
+            "soldOut": false
+          },
+          {
+            "size": "L",
+            "soldOut": false
+          },
+          {
+            "size": "XL",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "color": "jasnoróżowy",
+        "sizes": [
+          {
+            "size": "S",
+            "soldOut": false
+          },
+          {
+            "size": "M",
+            "soldOut": true
+          },
+          {
+            "size": "L",
+            "soldOut": false
+          },
+          {
+            "size": "XL",
+            "soldOut": false
+          }
+        ]
+      }
+    ],
+    "price": 39.99,
+    "discount": null,
+    "createdAt": "2024-04-30T12:00:00Z",
+    "fabrics": [
+      {
+        "fabric": "bawełna",
+        "percentage": 100
+      }
+    ],
+    "pattern": "wzorzysty",
+    "soldCount": 20,
+    "inFashion": true
+  },
+  {
+    "id": 8,
+    "name": "Spódniczka tenisowa",
+    "description": "Krótka spódniczka z szybkoschnącego materiału funkcjonalnego z wewnętrznymi krótkimi legginsami. Elastyczna talia i rozcięcie z przodu. Bez podszewki.",
+    "category": "spódnice",
+    "collections": ["wiosna/lato", "sportowe"],
+    "size": "M",
+    "color": "biały",
+    "availableColors": [
+      {
+        "color": "biały",
+        "sizes": [
+          {
+            "size": "S",
+            "soldOut": true
+          },
+          {
+            "size": "M",
+            "soldOut": false
+          },
+          {
+            "size": "L",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "color": "turkusowy",
+        "sizes": [
+          {
+            "size": "S",
+            "soldOut": false
+          },
+          {
+            "size": "M",
+            "soldOut": true
+          },
+          {
+            "size": "L",
+            "soldOut": false
+          }
+        ]
+      }
+    ],
+    "price": 79.99,
+    "discount": 10,
+    "createdAt": "2024-06-18T12:00:00Z",
+    "fabrics": [
+      {
+        "fabric": "poliester",
+        "percentage": 87
+      },
+      {
+        "fabric": "elastan",
+        "percentage": 13
+      }
+    ],
+    "pattern": "jednolity",
+    "soldCount": 65,
+    "inFashion": true
+  },
+  {
+    "id": 9,
+    "name": "Lniana marynarka jednorzędowa",
+    "description": "Jednorzędowa marynarka z lnianej tkaniny o strukturalnej powierzchni. Otwarte klapy, zapięcie na guziki, watowane ramiona. Na piersi kieszeń z wypustką, u dołu kieszenie z klapką, jedna kieszeń wewnętrzna z wypustkami. Z podszewką.",
+    "category": "marynarki",
+    "collections": ["wiosna/lato", "biznesowe", "wieczorowe"],
+    "size": 36,
+    "color": "jasnobeżowy",
+    "availableColors": [
+      {
+        "color": "jasnobeżowy",
+        "sizes": [
+          {
+            "size": 34,
+            "soldOut": true
+          },
+          {
+            "size": 36,
+            "soldOut": false
+          },
+          {
+            "size": 38,
+            "soldOut": false
+          },
+          {
+            "size": 40,
+            "soldOut": false
+          },
+          {
+            "size": 42,
+            "soldOut": false
+          }
+        ]
+      }
+    ],
+    "price": 599.99,
+    "discount": 40,
+    "createdAt": "2023-10-23T12:00:00Z",
+    "fabrics": [
+      {
+        "fabric": "len",
+        "percentage": 100
+      }
+    ],
+    "pattern": "jednolity",
+    "soldCount": 4,
+    "inFashion": false
+  },
+  {
+    "id": 10,
+    "name": "Płaszcz z domieszką wełny",
+    "description": "Krótki płaszcz z miękkiej mieszanki wełny i wiskozy. Spiczaste klapy, obniżone ramiona i kieszenie w szwach bocznych. W talii szeroki pasek do wiązania i kryty guzik. Z podszewką.",
+    "category": "płaszcze",
+    "collections": ["jesień/zima", "casual"],
+    "size": "XS",
+    "color": "jasnobeżowy",
+    "availableColors": [
+      {
+        "color": "jasnobeżowy",
+        "sizes": [
+          {
+            "size": "XS",
+            "soldOut": false
+          },
+          {
+            "size": "S",
+            "soldOut": true
+          },
+          {
+            "size": "M",
+            "soldOut": true
+          },
+          {
+            "size": "L",
+            "soldOut": false
+          }
+        ]
+      }
+    ],
+    "price": 629.99,
+    "discount": null,
+    "createdAt": "2024-03-14T12:00:00Z",
+    "fabrics": [
+      {
+        "fabric": "wełna",
+        "percentage": 50
+      },
+      {
+        "fabric": "wiskoza",
+        "percentage": 30
+      },
+      {
+        "fabric": "poliamid",
+        "percentage": 20
+      }
+    ],
+    "pattern": "jednolity",
+    "soldCount": 14,
+    "inFashion": false
+  },
+  {
+    "id": 11,
+    "name": "Spodnie sportowe",
+    "description": "Luźne spodnie sportowe z dżerseju z lekkim połyskiem. Wewnątrz miękki meszek. Elastyczne marszczenie w talii, z przodu ukośne kieszenie. Szerokie proste nogawki z przeszytym kantem z przodu i kontrastowymi wypustkami na bokach.",
+    "category": "spodnie",
+    "collections": ["wiosna/lato", "casual", "sportowe"],
+    "size": "S",
+    "color": "czarny",
+    "availableColors": [
+      {
+        "color": "czarny",
+        "sizes": [
+          {
+            "size": "XXS",
+            "soldOut": false
+          },
+          {
+            "size": "XS",
+            "soldOut": false
+          },
+          {
+            "size": "S",
+            "soldOut": true
+          },
+          {
+            "size": "M",
+            "soldOut": false
+          },
+          {
+            "size": "L",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "color": "czerwony",
+        "sizes": [
+          {
+            "size": "XXS",
+            "soldOut": false
+          },
+          {
+            "size": "XS",
+            "soldOut": false
+          },
+          {
+            "size": "S",
+            "soldOut": false
+          },
+          {
+            "size": "M",
+            "soldOut": false
+          },
+          {
+            "size": "L",
+            "soldOut": false
+          }
+        ]
+      }
+    ],
+    "price": 127.99,
+    "discount": 5,
+    "createdAt": "2023-07-21T12:00:00Z",
+    "fabrics": [
+      {
+        "fabric": "poliester",
+        "percentage": 100
+      }
+    ],
+    "pattern": "jednolity",
+    "soldCount": 12,
+    "inFashion": false
+  },
+  {
+    "id": 12,
+    "name": "Spodnie do kostki",
+    "description": "Tkaninowe spodnie z kantami. Wysoki stan, elastyczny tył tali, zakładki z przodu, rozporek na suwak i haftki. Kieszenie po bokach, atrapy kieszeni z tyłu. Lekko zwężane szerokie nogawki do kostki.",
+    "category": "spodnie",
+    "collections": ["biznesowe", "wieczorowe"],
+    "size": 38,
+    "color": "ciemnobrązowy",
+    "availableColors": [
+      {
+        "color": "ciemnobrązowy",
+        "sizes": [
+          {
+            "size": 32,
+            "soldOut": false
+          },
+          {
+            "size": 34,
+            "soldOut": false
+          },
+          {
+            "size": 36,
+            "soldOut": false
+          },
+          {
+            "size": 38,
+            "soldOut": true
+          },
+          {
+            "size": 40,
+            "soldOut": true
+          },
+          {
+            "size": 42,
+            "soldOut": false
+          },
+          {
+            "size": 44,
+            "soldOut": false
+          },
+          {
+            "size": 46,
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "color": "jasnofioletowy",
+        "sizes": [
+          {
+            "size": 32,
+            "soldOut": false
+          },
+          {
+            "size": 34,
+            "soldOut": true
+          },
+          {
+            "size": 36,
+            "soldOut": true
+          },
+          {
+            "size": 38,
+            "soldOut": false
+          },
+          {
+            "size": 40,
+            "soldOut": false
+          },
+          {
+            "size": 42,
+            "soldOut": true
+          },
+          {
+            "size": 44,
+            "soldOut": false
+          },
+          {
+            "size": 46,
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "color": "pudroworóżowy",
+        "sizes": [
+          {
+            "size": 32,
+            "soldOut": false
+          },
+          {
+            "size": 34,
+            "soldOut": true
+          },
+          {
+            "size": 36,
+            "soldOut": false
+          },
+          {
+            "size": 38,
+            "soldOut": false
+          },
+          {
+            "size": 40,
+            "soldOut": false
+          },
+          {
+            "size": 42,
+            "soldOut": false
+          },
+          {
+            "size": 44,
+            "soldOut": true
+          },
+          {
+            "size": 46,
+            "soldOut": false
+          }
+        ]
+      }
+    ],
+    "price": 109.99,
+    "discount": null,
+    "createdAt": "2024-02-12T12:00:00Z",
+    "fabrics": [
+      {
+        "fabric": "poliester",
+        "percentage": 66
+      },
+      {
+        "fabric": "wiskoza",
+        "percentage": 32
+      },
+      {
+        "fabric": "elastan",
+        "percentage": 2
+      }
+    ],
+    "pattern": "jednolity",
+    "soldCount": 21,
+    "inFashion": true
+  },
+  {
+    "id": 13,
+    "name": "Sukienka z dzianiny w prążki",
+    "description": "Podkreślająca figurę sukienka do połowy łydki wykonana z dzianiny w prążki z mieszanki zawierającej wiskozę LivaEco™. Dekolt w serce, długie rękawy z lekko rozszerzanym dołem, prosty brzeg u dołu.",
+    "category": "sukienki",
+    "collections": ["wieczorowe"],
+    "size": "S",
+    "color": "jasnobeżowy",
+    "availableColors": [
+      {
+        "color": "jasnobeżowy",
+        "sizes": [
+          {
+            "size": "XS",
+            "soldOut": false
+          },
+          {
+            "size": "S",
+            "soldOut": false
+          },
+          {
+            "size": "M",
+            "soldOut": false
+          },
+          {
+            "size": "L",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "color": "czarny",
+        "sizes": [
+          {
+            "size": "XS",
+            "soldOut": true
+          },
+          {
+            "size": "S",
+            "soldOut": false
+          },
+          {
+            "size": "M",
+            "soldOut": false
+          },
+          {
+            "size": "L",
+            "soldOut": false
+          }
+        ]
+      }
+    ],
+    "price": 147.99,
+    "discount": null,
+    "createdAt": "2023-11-25T12:00:00Z",
+    "fabrics": [
+      {
+        "fabric": "wiskoza",
+        "percentage": 70
+      },
+      {
+        "fabric": "poliamid",
+        "percentage": 30
+      }
+    ],
+    "pattern": "jednolity",
+    "soldCount": 13,
+    "inFashion": false
+  },
+  {
+    "id": 14,
+    "name": "Rozszerzane spodnie z diagonalu",
+    "description": "Tkaninowe spodnie z kantami. Wysoki stan, elastyczny tył tali, zakładki z przodu, rozporek na suwak i haftki. Kieszenie po bokach, atrapy kieszeni z tyłu. Lekko zwężane szerokie nogawki do kostki.",
+    "category": "spodnie",
+    "collections": ["biznesowe", "wieczorowe"],
+    "size": 36,
+    "color": "czarny",
+    "availableColors": [
+      {
+        "color": "czarny",
+        "sizes": [
+          {
+            "size": 32,
+            "soldOut": false
+          },
+          {
+            "size": 34,
+            "soldOut": false
+          },
+          {
+            "size": 36,
+            "soldOut": true
+          },
+          {
+            "size": 38,
+            "soldOut": true
+          },
+          {
+            "size": 40,
+            "soldOut": false
+          },
+          {
+            "size": 42,
+            "soldOut": false
+          },
+          {
+            "size": 44,
+            "soldOut": false
+          },
+          {
+            "size": 46,
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "color": "ciemnoszary",
+        "sizes": [
+          {
+            "size": 32,
+            "soldOut": false
+          },
+          {
+            "size": 34,
+            "soldOut": false
+          },
+          {
+            "size": 36,
+            "soldOut": true
+          },
+          {
+            "size": 38,
+            "soldOut": true
+          },
+          {
+            "size": 40,
+            "soldOut": false
+          },
+          {
+            "size": 42,
+            "soldOut": true
+          },
+          {
+            "size": 44,
+            "soldOut": false
+          },
+          {
+            "size": 46,
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "color": "jasnobeżowy",
+        "sizes": [
+          {
+            "size": 32,
+            "soldOut": false
+          },
+          {
+            "size": 34,
+            "soldOut": false
+          },
+          {
+            "size": 36,
+            "soldOut": true
+          },
+          {
+            "size": 38,
+            "soldOut": false
+          },
+          {
+            "size": 40,
+            "soldOut": true
+          },
+          {
+            "size": 42,
+            "soldOut": false
+          },
+          {
+            "size": 44,
+            "soldOut": false
+          },
+          {
+            "size": 46,
+            "soldOut": false
+          }
+        ]
+      }
+    ],
+    "price": 69.99,
+    "discount": null,
+    "createdAt": "2024-05-07T12:00:00Z",
+    "fabrics": [
+      {
+        "fabric": "bawełna",
+        "percentage": 98
+      },
+      {
+        "fabric": "elastan",
+        "percentage": 2
+      }
+    ],
+    "pattern": "jednolity",
+    "soldCount": 45,
+    "inFashion": false
+  }
+]

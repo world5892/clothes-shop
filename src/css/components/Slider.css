@@ -1,0 +1,245 @@
+.slider {
+  position: relative;
+  max-width: 52.8rem;
+  height: 80rem;
+  margin: 0 auto;
+  perspective: 150rem;
+  perspective-origin: top left;
+}
+
+.slider__box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--color-primary);
+  border-radius: 10px;
+  transition: all 0.6s;
+  overflow: hidden;
+  z-index: 30;
+}
+
+.slider__box--active {
+  transform: rotateY(180deg) translateX(55%) scale(0.9);
+}
+
+.slider__gallery {
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
+  transition: all 0.4s;
+  z-index: 40;
+}
+
+.slider__photo {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* opacity: 0.85; problem: visible left button behind */
+  z-index: 40;
+}
+
+.slider__dots {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  column-gap: 2.2rem;
+
+  position: absolute;
+  bottom: 4%;
+  left: 50%;
+  animation: fadeIn 0.6s 1s backwards;
+  transform: translateX(-50%);
+  z-index: 50;
+}
+
+.slider__dot {
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: var(--color-secondary);
+  border-radius: 50%;
+  opacity: 0.3;
+  transition: all 0.4s;
+}
+
+.slider__dot--active {
+  opacity: 0.9;
+}
+
+.slider__underlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 3.6rem;
+  color: var(--color-white);
+  font-size: 1.8rem;
+  background-color: var(--color-primary-dark-2);
+  border-radius: 10px;
+  transform: rotateY(180deg);
+  transition: 0.6s;
+  z-index: 20;
+}
+
+.slider__underlay--active {
+  opacity: 1;
+  transform: rotateY(0) translateX(55%) scale(0.9);
+}
+
+.slider__info-name {
+  margin-bottom: 3.2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.slider__info-description {
+  margin-bottom: 3rem;
+  text-align: justify;
+}
+
+.slider__info-fabrics {
+  margin-bottom: 3.4rem;
+}
+
+.slider__info-fabric {
+  margin-left: 3rem;
+}
+
+.slider__info-sizes {
+  margin-bottom: 3rem;
+  background-color: var(--color-secondary);
+  border: 2px solid var(--color-primary);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.slider__info-sizes th {
+  border-bottom: 2px solid var(--color-primary);
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.slider__info-sizes td {
+  width: 50%;
+  padding: 0.5rem;
+}
+
+.slider__info-header {
+  font-weight: 600;
+}
+
+.slider__info-price {
+  width: 50%;
+  display: inline-block;
+  margin-left: -3.6rem;
+  padding: 1.4rem 2.6rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color-grey-dark-2);
+  background-color: var(--color-primary-light-1);
+  border: 2px solid var(--color-primary);
+  border-left: none;
+  border-radius: 40px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.slider__btn-nav {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4rem;
+  height: 4rem;
+  background-color: transparent;
+  border: none;
+  outline: 2px solid var(--color-primary);
+  outline-offset: 0.2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s;
+  opacity: 0.85;
+}
+
+.slider__btn-nav:hover {
+  background-color: var(--color-primary);
+}
+
+.slider__btn-nav:active {
+  transform: translateY(-50%) scale(0.9);
+  opacity: 1;
+  outline-offset: 0;
+}
+
+.slider__btn-nav--left {
+  left: -9rem;
+}
+
+.slider__btn-nav--right {
+  right: -9rem;
+}
+
+.slider__btn-nav > svg {
+  width: 3.2rem;
+  height: 3.2rem;
+  fill: var(--color-primary-light-1);
+}
+
+.slider__btn-info,
+.slider__btn-close {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+  padding: 1rem;
+  background-color: rgba(var(--color-primary-rgb), 0.5);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  transition: background-color 0.2s, transform 0.2s, visibility 0.1s 2s;
+  animation: fadeIn 0.6s 1s backwards;
+  cursor: pointer;
+  box-shadow: 0 0.3rem 0.5rem rgba(var(--color-black-rgb), 0.2);
+  z-index: 50;
+}
+
+.slider__btn-info > svg,
+.slider__btn-close > svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.slider__btn-info > svg {
+  fill: var(--color-primary-dark-1);
+}
+
+.slider__btn-close > svg {
+  fill: var(--color-primary-light-1);
+}
+
+.slider__btn-info:hover,
+.slider__btn-close:hover {
+  background-color: rgba(var(--color-primary-rgb), 0.6);
+}
+
+.slider__btn-info:active,
+.slider__btn-close:active {
+  transform: scale(0.95);
+}

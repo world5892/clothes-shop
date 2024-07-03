@@ -1,0 +1,13 @@
+.paragraph {
+  margin: 1.4rem 0 6.4rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.paragraph--light {
+  color: var(--color-primary-light-1);
+}
+
+.paragraph--dark {
+  color: var(--color-grey-dark-1);
+}

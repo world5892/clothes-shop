@@ -1,0 +1,7 @@
+.item-info {
+  display: flex;
+  column-gap: 4rem;
+
+  grid-column: center-start / center-end;
+  padding: 9rem 3rem;
+}

@@ -1,0 +1,18 @@
+.special {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+
+  position: relative;
+  grid-column: full-start / full-end;
+  padding: 0.4rem 0;
+  background-color: var(--color-grey-light-1);
+  color: var(--color-grey-dark-2);
+  z-index: 100;
+}
+
+.special__text {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}

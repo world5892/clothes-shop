@@ -1,0 +1,24 @@
+1) create utility class for flex-centering? DONE
+2) create Link and Button components for all buttons and <a> tags? DONE BUT IS IT NECESSARY?
+3) create a folder 'layout' for React components like Footer or Navbar? DONE
+4) change class name in UserNav for nav-user? DONE
+5) turn off/modify keyboard nav while info is shown DONE
+6) remove unnecessary imgs/icons + symbol-defs.svg file?
+7) make main nav sticky? DONE
+8) Slider - sectionEl - too many renders on click GUESS IT'S DONE :)
+9) change transition effect eg ease-in-out for some elements DONE - only for nav-category lis it makes sense
+10) set final height for Navbar DONE
+11) remove diacritics from item Links DONE
+12) replace points with commas in prices DONE
+13) normalize margins/paddings between different components on all pages
+14) check if all BEM elements have modifiers if possible (no names added with '-')
+15) remove margin from Paragraph css and add utility class?
+16) make sure no keys in map() methods have indexes as values
+17) move out the code that doesn't change from the components (eg variables or styles?) and place them above
+18) make Button component used only for buttons - remove it from Links?
+19) decide whether to add a default value ('') for className attributes or leave it as undefined
+20) improve the programmatic navigation using 'replace' attribute
+21) Slider - add 'See more details' button
+22) adjust some photos position - some don't fit in
+23) even the sizes icons under photos
+24) add favourites button to items (when shown as a list)

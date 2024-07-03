@@ -1,0 +1,4 @@
+.sales {
+  grid-column: center-start / center-end;
+  padding: 6rem 3rem 9rem;
+}

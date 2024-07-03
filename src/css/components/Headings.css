@@ -1,0 +1,33 @@
+.heading-primary {
+  font-weight: 400;
+  font-size: 6rem;
+  color: var(--color-primary-light-1);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  animation: moveDown 0.7s ease-in-out;
+}
+
+.heading-secondary {
+  font-weight: 600;
+  font-size: 3.2rem;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  /* letter-spacing: 2px; */
+  text-align: center;
+}
+
+.heading-secondary--light {
+  background-image: linear-gradient(to right, var(--color-primary-light-1), var(--color-primary));
+}
+
+.heading-secondary--dark {
+  background-image: linear-gradient(to right, var(--color-primary), var(--color-secondary));
+}
+
+.heading-tertiary {
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.4;
+  text-transform: capitalize;
+}
