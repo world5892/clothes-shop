@@ -1,0 +1,19 @@
+.message {
+  position: fixed;
+  top: 12.3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.8rem 1.4rem;
+  font-size: 1.4rem;
+  color: var(--color-grey-light-1);
+  border-radius: 10px;
+  animation: showUp 0.5s, hide 0.5s 3.8s;
+}
+
+.message--success {
+  background-color: rgba(var(--color-success-rgb), 0.6);
+}
+
+.message--failure {
+  background-color: rgba(var(--color-invalid-rgb), 0.6);
+}

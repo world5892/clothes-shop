@@ -6,6 +6,7 @@ import Map from '../components/Map';
 import LinkButton from '../components/LinkButton';
 import data from '../dev-data.json';
 import '../css/pages/Home.css';
+import '../css/components/Button.css';
 
 const items = data as Array<Item>;
 

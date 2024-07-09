@@ -5,9 +5,7 @@ import '../css/pages/Popular.css';
 import data from '../dev-data.json';
 
 const items = data as Array<Item>;
-console.log(items);
 const popularItems = items.filter((item) => item.inFashion);
-console.log(popularItems);
 
 function Popular() {
   return (

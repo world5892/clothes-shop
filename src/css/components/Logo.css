@@ -1,12 +1,14 @@
 .logo {
   display: block;
   overflow: hidden;
+  width: 20%;
+}
+
+.logo__img-wrapper {
   max-width: 6rem;
-  /* flex-basis: 11.8rem; */
 }
 
 .logo__img {
   width: 100%;
   display: block;
-  /* height: 11rem; */
 }

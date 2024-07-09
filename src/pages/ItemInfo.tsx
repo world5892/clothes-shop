@@ -8,10 +8,6 @@ import data from '../dev-data.json';
 
 const items = data as Array<Item>;
 
-// type ItemDetailsProps = {
-//   item: Item;
-// };
-
 type ItemInfoParams = {
   category: string;
   name: string;
@@ -24,8 +20,6 @@ function ItemInfo() {
       normalizeDiacritics(item.category) === category &&
       getItemPath(normalizeDiacritics(item.name)) === name,
   );
-
-  console.log(item);
 
   if (!item) return <NotFound />;
 

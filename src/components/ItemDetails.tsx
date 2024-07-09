@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { calcReducedPrice } from '../utils/numUtils';
 import Headings from './Headings';
 import Button from './Button';
@@ -31,10 +31,6 @@ function ItemDetails(props: ItemDetailsProps) {
     setActiveSize(e.target.value);
   }
 
-  useEffect(() => {
-    console.log({ activeSize });
-  });
-
   return (
     <div className="item-details">
       <Headings.Tertiary className="mb-4">{name}</Headings.Tertiary>
@@ -65,17 +61,6 @@ function ItemDetails(props: ItemDetailsProps) {
             ))}
           </select>
         </div>
-
-        {/* <select className="item-details__sizes mb-3">
-          {availableColors
-            .find((color) => color.color === activeColor)
-            ?.sizes.filter((size) => !size.soldOut)
-            .map((size) => (
-              <option key={size.size} className="item-details__size">
-                {size.size}
-              </option>
-            ))}
-        </select> */}
         <div className="item-details__form-group mb-6">
           {availableColors
             .find((color) => color.color === activeColor)

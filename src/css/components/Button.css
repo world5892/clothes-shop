@@ -44,3 +44,16 @@
 .btn--wide {
   width: 100%;
 }
+
+.btn--small {
+  padding: 1rem 1.8rem;
+  font-size: 1.4rem;
+}
+
+.btn--small:hover {
+  transform: translate(0);
+}
+
+.btn--small:active {
+  transform: scale(0.98);
+}

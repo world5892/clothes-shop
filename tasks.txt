@@ -22,3 +22,4 @@
 22) adjust some photos position - some don't fit in
 23) even the sizes icons under photos
 24) add favourites button to items (when shown as a list)
+25) format dates/numbers using Intl API?

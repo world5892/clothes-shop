@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect, ReactElement } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import data from '../dev-data.json';
 import { ReactComponent as ChevronLeftIcon } from '../img/svg/chevron-left.svg';
 import { ReactComponent as ChevronRightIcon } from '../img/svg/chevron-right.svg';
@@ -7,10 +7,8 @@ import { ReactComponent as CrossIcon } from '../img/svg/cross.svg';
 import '../css/components/Slider.css';
 
 const items = data as Array<Item>;
-// console.log(items);
 
 function Slider() {
-  // const [currentItem, setCurrentItem] = useState(items[0]);
   const [translation, setTranslation] = useState(0);
   const [infoShown, setInfoShown] = useState(false);
   const divRef = useRef<HTMLDivElement>(null);
@@ -18,25 +16,14 @@ function Slider() {
   const currentItemId = Math.abs(translation) / 100;
   const currentItem = items[currentItemId];
 
-  // const boxStyles = { transform: 'rotateY(180deg) translateX(55%) scale(0.9)' };
-  // const galleryStyles = {
-  //   transform: `translateX(${translation}%)`,
-  // };
-  // const underlayStyles = {
-  //   opacity: 1,
-  //   transform: 'rotateY(0) translateX(55%) scale(0.9)',
-  // };
-
   useEffect(() => {
     const sectionEl = divRef.current!.parentElement;
-    // todo: why React.MouseEvent type doesn't work here?
     sectionEl!.addEventListener('click', (e: MouseEvent) => {
       if ((e.target as Element).classList.contains('new__demo') && infoShown) {
         setInfoShown(false);
       }
     });
 
-    // todo: same problem here
     document.body.addEventListener('keydown', (e: KeyboardEvent) => {
       if (e.key === 'Escape' && infoShown) {
         setInfoShown(false);
@@ -60,12 +47,6 @@ function Slider() {
     }
   }
 
-  // function handleClosePress() {
-  //   if (infoShown) {
-  //     setInfoShown(false);
-  //   }
-  // }
-
   function handleKeyPress(e: React.KeyboardEvent) {
     switch (e.key) {
       case 'ArrowLeft':
@@ -75,27 +56,14 @@ function Slider() {
       case 'ArrowRight':
         handleRightClick();
         break;
-
-      // case 'Escape':
-      //   handleClosePress();
-      //   break;
     }
   }
 
   const handleInfoClick = () => setInfoShown(true);
   const handleCloseClick = () => setInfoShown(false);
 
-  // function handleMouseEnter(event: React.MouseEvent) {
-  //   event.currentTarget.textContent = 'Wyświetl szczegóły';
-  // }
-
-  // function handleMouseLeave(event: React.MouseEvent) {
-  //   event.currentTarget.textContent = '';
-  // }
-
   return (
     <div className="slider" ref={divRef} onKeyDown={handleKeyPress}>
-      {console.log(currentItemId) as unknown as ReactElement}
       <div className={`slider__box ${infoShown ? 'slider__box--active' : ''}`}>
         <div className="slider__gallery" style={{ transform: `translateX(${translation}%)` }}>
           {items.map((item, index) => (
@@ -193,7 +161,6 @@ function Slider() {
           onClick={handleInfoClick}
         >
           <DotsIcon />
-          {/* <ArrowRightIcon /> */}
         </button>
       )}
     </div>

@@ -11,6 +11,10 @@
   --color-primary-dark-2-rgb: 110, 66, 117;
   --color-secondary: #432d47;
   --color-secondary-rgb: 67, 45, 71;
+  --color-success: #006400;
+  --color-success-rgb: 0, 100, 0;
+  --color-invalid: #a40000;
+  --color-invalid-rgb: 164, 0, 0;
 
   --color-grey-dark-1: #777;
   --color-grey-dark-1-rgb: 119, 119, 119;
@@ -146,5 +150,25 @@ body {
 
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes showUp {
+  0% {
+    transform: translate(-50%, -5rem);
+  }
+
+  100% {
+    transform: translate(-50%, 0);
+  }
+}
+
+@keyframes hide {
+  0% {
+    transform: translate(-50%, 0);
+  }
+
+  100% {
+    transform: translate(-50%, -5rem);
   }
 }

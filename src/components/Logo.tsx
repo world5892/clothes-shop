@@ -6,7 +6,9 @@ function Logo() {
   return (
     <div className="logo">
       <NavLink to="/">
-        <img src={logo} alt="Logo" className="logo__img" />
+        <div className="logo__img-wrapper">
+          <img src={logo} alt="Logo" className="logo__img" />
+        </div>
       </NavLink>
     </div>
   );
