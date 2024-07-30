@@ -1,9 +1,9 @@
 import '../css/components/Message.css';
 
-type MessageProps = {
+interface MessageProps {
   text: string;
   result: 'success' | 'failure';
-};
+}
 
 function Message(props: MessageProps) {
   const { text, result } = props;

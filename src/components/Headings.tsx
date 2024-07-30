@@ -1,11 +1,11 @@
 import '../css/components/Headings.css';
 
-type HeadingProps = {
+interface HeadingProps {
   // type?: 'primary' | 'secondary' | 'tertiary';
   modifier?: 'light' | 'dark';
   className?: string;
   children: React.ReactNode;
-};
+}
 
 // const Headings = {
 //   Primary: ({ children }: HeadingProps) => <h1 className="heading-primary">{children}</h1>,

@@ -1,8 +1,8 @@
 import '../css/components/ItemGallery.css';
 
-type ItemGalleryProps = {
+interface ItemGalleryProps {
   item: Item;
-};
+}
 
 function ItemGallery(props: ItemGalleryProps) {
   const { item } = props;

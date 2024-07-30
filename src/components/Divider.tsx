@@ -1,8 +1,8 @@
 import '../css/components/Divider.css';
 
-type DividerProps = {
+interface DividerProps {
   className: string;
-};
+}
 
 function Divider(props: DividerProps) {
   const { className } = props;

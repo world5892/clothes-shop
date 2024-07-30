@@ -1,9 +1,9 @@
-type ButtonProps = {
+interface ButtonProps {
   type?: 'button' | 'submit';
   className: string;
   children: React.ReactNode;
   onClick?: () => void;
-};
+}
 
 function Button(props: ButtonProps) {
   const { className, type = 'button', children, ...rest } = props;

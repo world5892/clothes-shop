@@ -1,21 +1,21 @@
 import { createContext, useContext, useReducer } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-type AuthContextProps = {
+interface AuthContextProps {
   children: React.ReactNode;
-};
+}
 
-type User = {
+interface User {
   name: string;
   email: string;
   password: string;
   avatar: string;
-};
+}
 
-type AuthState = {
+interface AuthState {
   user: User | null;
   isAuthenticated: boolean;
-};
+}
 
 type AuthAction =
   | {

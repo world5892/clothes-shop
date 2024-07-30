@@ -8,10 +8,11 @@ import data from '../dev-data.json';
 
 const items = data as Array<Item>;
 
-type ItemInfoParams = {
+// Extending is necessary to satisfy useParams hook contraint on possible types
+interface ItemInfoParams extends Record<string, string | undefined> {
   category: string;
   name: string;
-};
+}
 
 function ItemInfo() {
   const { category, name } = useParams<ItemInfoParams>();

@@ -30,24 +30,24 @@ type SizeS = 'XXS' | 'XS' | 'S' | 'M' | 'L' | 'XL' | 'XXL' | 'XXXL';
 
 type Size = SizeN | SizeS;
 
-type AvailableSize = {
+interface AvailableSize {
   size: Size;
   soldOut: boolean;
-};
+}
 
-type AvailableColor = {
+interface AvailableColor {
   color: string;
   sizes: Array<AvailableSize>;
-};
+}
 
-type Fabric = {
+interface Fabric {
   fabric: string;
   percentage: number;
-};
+}
 
 type Pattern = 'w paski' | 'w kratę' | 'jednolity' | 'wzorzysty';
 
-type Item = {
+interface Item {
   id: number;
   name: string;
   description: string;
@@ -64,4 +64,4 @@ type Item = {
   pattern: Pattern;
   soldCount: number;
   inFashion: boolean;
-};
+}

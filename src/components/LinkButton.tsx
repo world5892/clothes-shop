@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
 import '../css/components/Button.css';
 
-type LinkButtonProps = {
+interface LinkButtonProps {
   to: string;
   className: string;
   children: React.ReactNode;
-};
+}
 
 function LinkButton(props: LinkButtonProps) {
   const { to, className, children, ...rest } = props;

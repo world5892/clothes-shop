@@ -7,9 +7,9 @@ import '../css/components/ItemDetails.css';
 import { normalizePrice } from '../utils/numUtils';
 import { checkAvailability } from '../utils/arrUtils';
 
-type ItemDetailsProps = {
+interface ItemDetailsProps {
   item: Item;
-};
+}
 
 function ItemDetails(props: ItemDetailsProps) {
   const { item } = props;

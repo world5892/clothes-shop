@@ -2,7 +2,7 @@ import Item from '../components/Item';
 import Paragraph from './Paragraph';
 import '../css/components/ItemList.css';
 
-type ItemListProps = {
+interface ItemListProps {
   items: Array<Item>;
   className?: string;
   columns?: number;

@@ -4,10 +4,10 @@ import { normalizeDiacritics, getItemPath } from '../utils/strUtils';
 import { checkAvailability } from '../utils/arrUtils';
 import '../css/components/Item.css';
 
-type ItemProps = {
+interface ItemProps {
   item: Item;
   columns?: number;
-};
+}
 
 function Item(props: ItemProps) {
   const { item, columns } = props;

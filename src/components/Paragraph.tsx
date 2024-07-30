@@ -1,10 +1,10 @@
 import '../css/components/Paragraph.css';
 
-type ParagraphProps = {
+interface ParagraphProps {
   modifier?: 'light' | 'dark';
   className?: string;
   children: React.ReactNode;
-};
+}
 
 function Paragraph(props: ParagraphProps) {
   const { className = '', modifier = 'light', children } = props;
